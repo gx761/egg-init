@@ -1,7 +1,7 @@
 {
-  "name": "egg-init",
-  "version": "1.14.0",
-  "description": "Init egg app helper tools.",
+  "name": "@tencent/icjs-init",
+  "version": "1.14.3",
+  "description": "Init icjs app helper tools.",
   "main": "lib/init_command.js",
   "scripts": {
     "lint": "eslint bin lib test",
@@ -12,7 +12,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "egg-init": "bin/egg-init.js"
+    "icjs-init": "bin/icjs-init.js"
   },
   "files": [
     "bin",
@@ -45,11 +45,12 @@
     "egg-ci": "^1.1.0",
     "eslint": "^4.13.1",
     "eslint-config-egg": "^5.1.1",
+    "eslint-config-info-center-base": "^1.0.0",
     "intelli-espower-loader": "^1.0.1",
-    "power-assert": "^1.4.4",
-    "rimraf": "^2.6.1",
     "mm": "^2.2.0",
+    "power-assert": "^1.4.4",
     "proxy": "^0.2.4",
+    "rimraf": "^2.6.1",
     "webstorm-disable-index": "^1.0.11"
   },
   "homepage": "https://github.com/eggjs/egg-init",
@@ -68,5 +69,5 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.com)"
+  "author": "royguo <royguo@tencent.com>"
 }
